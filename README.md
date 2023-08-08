@@ -1,7 +1,7 @@
-# WebPage Replica with Vite: Home and Connect Pages
-# website available on: https://marijan10marijan.github.io/responsive-website/
+## WebPage Replica with Vite: Home and Connect Pages
+## website available on: https://marijan10marijan.github.io/responsive-website/
 
-## Description:
+### Description:
 
 The **WebPage Replica with Vite** project is a meticulously crafted web application that showcases your proficiency in modern web development. Utilizing HTML, CSS, and vanilla JavaScript, this project consists of two main pages: the *Home* page and the *Connect* page. Drawing inspiration from a website found on the internet, you have recreated its design and structure to demonstrate your keen eye for aesthetics and attention to detail.
 

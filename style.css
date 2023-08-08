@@ -1,0 +1,88 @@
+/* CUSTOM PROPERTIES(CSS VARIABLES) */
+:root{
+  /* TEXT COLORS */
+  --clr-text-primary: white;
+  --clr-text-primary-opacity: rgba(255, 255, 255, 0.473);
+  --clr-text-secondary: #c3d9f3;
+
+  /* BACKGROUND COLORS */
+  --clr-bg-primary: #1066cf;
+  --clr-bg-secondary: rgba(53, 126, 214, 1);
+  --clr-bg-dark: #262626;
+
+  /* LIGHT AND DARK COLORS */
+  --clr-light-100: white;
+  --clr-light-200: lightgray;
+  --clr-light-300: gray;
+  --clr-dark-100: black;
+  --clr-dark-200: rgb(31, 30, 30);
+  --clr-dark-300: rgb(53, 53, 53);
+
+  /* BREAKPOINTS */
+  --breakpoint-small: 410px;
+  --breakpoint-medium: 768px;
+  --breakpoint-large: 1080px;
+  --breakpoint-x-large: 1200px;
+
+  /* PADDINGS */
+  --padding-small: 1rem;
+  --padding-medium: 2rem;
+  --padding-large: 3rem;
+  --padding-x-large: 5rem;
+
+  /* MARGINS */
+  --margin-small: 1rem;
+  --margin-medium: 2rem;
+  --margin-large: 3rem;
+  --margin-x-large: 5rem;
+
+  /* FONT FAMILIES */
+  --font-primary: sans-serif;
+  --font-secondary: sans-serif;
+}
+
+/* BASE RESET */
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 100px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  font-family: var(--font-primary);
+}
+
+h1,h2{
+  font-family: var(--font-secondary);
+}
+
+p{
+  line-height: 1.4;
+}
+
+img{
+  width: 100%;
+}
+
+/*  UTILITIS CLASSES */
+.container{
+  width: min(1144px,95%);
+  margin-inline: auto;
+}
+
+
